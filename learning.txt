@@ -1,0 +1,2 @@
+- A Brief History
+	OCaml was written in 1996 by Xavier Leroy, Jerome Vouillon, Damien Doligez, and Didier REmy at INRIA in France. It was inspired by a  long line of reserach into ML Starting in the 1960s, and continues ot have deep links to the academic community
