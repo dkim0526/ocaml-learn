@@ -1,2 +1,13 @@
 - A Brief History
 	OCaml was written in 1996 by Xavier Leroy, Jerome Vouillon, Damien Doligez, and Didier REmy at INRIA in France. It was inspired by a  long line of reserach into ML Starting in the 1960s, and continues ot have deep links to the academic community
+
+
+	- We need to type ;; in order to tell the toplevel that it should evaluate an expression. This is a peculiarity of the toplevel that is not required in standalone programs( though it is sometimes helpful to include ;; to improve OCaml's error reporting, by making it more explicit where a given top-level declaration was intended to end).
+
+	- After evaluatating an expression, the toplevel first prints the type of the result, and then prints the result itself.
+
+	- Function arguments are seperated by spaces instead of by parentheses and commas, which is more like the UNIX shell than it is like traditional programming languages such as C or Java.
+
+	- OCaml allows you to place underscores in the middle of numeric literals ot imporve readability. Note that underscores can be places anywhere within a number, not just every three digits.
+
+	- OCaml carefully distinguishes between float, the type for floating-point numbers, and int, the type for integers. The types have different literals (6. instead of 6) and differnet infix operatos (+. instead of +), and OCaml doeesn't automaticlaly cast between these types. This can be a bit of nuisance,but it has its beneftis, since it prevents osme kinds of bugs that arise in other languges due to unexpected differences between the behavior of int and float. For example, in many lanauges, 1 / 3 is zero, but 1 / 3.0 is a third. OCaml requires you to be explicit about which operation you're doing.
