@@ -11,3 +11,5 @@
 	- OCaml allows you to place underscores in the middle of numeric literals ot imporve readability. Note that underscores can be places anywhere within a number, not just every three digits.
 
 	- OCaml carefully distinguishes between float, the type for floating-point numbers, and int, the type for integers. The types have different literals (6. instead of 6) and differnet infix operatos (+. instead of +), and OCaml doeesn't automaticlaly cast between these types. This can be a bit of nuisance,but it has its beneftis, since it prevents osme kinds of bugs that arise in other languges due to unexpected differences between the behavior of int and float. For example, in many lanauges, 1 / 3 is zero, but 1 / 3.0 is a third. OCaml requires you to be explicit about which operation you're doing.
+
+	- Another common data structure in OCaml is the option. An option is used to express that a value might or might not be present.
