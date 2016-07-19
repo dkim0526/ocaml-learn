@@ -1,0 +1,15 @@
+Script started on Sat Jul  9 11:09:41 2016
+[?1034hbash-3.2$ date
+Sat Jul  9 11:09:48 PDT 2016
+bash-3.2$ upi[Ktime
+11:09  up 53 days, 12:43, 4 users, load averages: 1.77 1.85 1.82
+bash-3.2$ [wd[K[K[Kpwd
+/Users/beumjookim/Documents/ocml-learn/test
+bash-3.2$ hostname
+Beumjoos-MacBook-Pro.local
+bash-3.2$ who am i
+beumjookim ttys003  Jul  9 11:10 
+bash-3.2$ exit
+exit
+
+Script done on Sat Jul  9 11:10:06 2016

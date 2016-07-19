@@ -1,0 +1,11 @@
+Script started on Sat Jul  9 11:09:32 2016
+[?1034hbash-3.2$ 
+bash-3.2$ q
+q version 1.5.0
+Copyright (C) 2012-2014 Harel Ben-Attia (harelba@gmail.com, @harelba on twitter)
+http://harelba.github.io/q/
+
+Must provide at least one query in the command line, or through a file with the -f parameter
+bash-3.2$ exit
+
+Script done on Sat Jul  9 11:09:38 2016
