@@ -45,3 +45,31 @@ Bench.bench
  * and those ending with .native are built as native code.
  *)
 
+
+
+
+(*
+	One of OCaml's betst features is its concise and expressive system for declaring new data types, and records are a key 
+	elemtns of that system. 
+	A record represents a collection of values stored together as one, where each component is identified by a differnet
+	field name. The basic syntax for a record type declaration is as follows:
+		type <record-name> =
+			{ <field> : <type> ;
+			<field> : <type> ;
+			...
+			}
+
+		Note that record field names must start with a lowercase letter.
+
+
+*)
+
+#require "core_extended";; 
+open Core_extended.Std;; 
+let my_host =
+	let sh = Shell.sh_one_exn in
+	{ hostname = sh"hostname"; 
+	  os_name  = sh "uname -s"; 
+	  cpu_arch = sh "uname -p";
+      timestamp  = Time.now ();
+    };;
